@@ -1,14 +1,7 @@
-# x={"message": "success", "result": [
-#     {"Code": "19000001", "DiaLi": "7.75", "GDCD": "9.00", "HoaHoc": "", "KHTN": "", "KHXH": "7.67", "LichSu": "6.25",
-#      "ListGroup": [], "NgoaiNgu": "10.00", "NguVan": "9.25", "Result": null, "SinhHoc": "", "Toan": "9.40",
-#      "VatLi": ""}]}
-
-collumns=['code','Dia li','GDCD','Hoa hoc','KHTN','KHXH','Lich su','Ngoai ngu','Ngu van','Sinh hoc','Toan','Vat li']
-
 import os
 import pandas as pd
 
-
+collumns=['code','Dia li','GDCD','Hoa hoc','KHTN','KHXH','Lich su','Ngoai ngu','Ngu van','Sinh hoc','Toan','Vat li']
 
 
 def processingdata():
@@ -65,4 +58,3 @@ while(True):
         count_student_above(data)
     else:
         break
-#30011606
